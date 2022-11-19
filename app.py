@@ -4,6 +4,11 @@ import support
 import matplotlib.pyplot as plt
 import plotly.express as px
 import seaborn as sns
+from PIL import Image
+
+img = Image.open('whatsapp.png')
+st.set_page_config(page_title='WhatsApp chat Analyzer', page_icon=img)
+
 
 sns.set()
 
